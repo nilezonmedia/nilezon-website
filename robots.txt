@@ -1,0 +1,41 @@
+# Nilezon — robots.txt
+# https://nilezon.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://nilezon.com/sitemap.xml
+
+# RSS Feed
+# https://nilezon.com/rss.xml
+
+# Disallow admin/internal paths (add as needed)
+Disallow: /admin/
+Disallow: /api/private/
+Disallow: /.netlify/
+
+# Allow all major crawlers full access
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: facebot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /

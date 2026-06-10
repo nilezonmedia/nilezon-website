@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/">
+
+  <channel>
+    <title>Nilezon — The Nile Basin Knowledge Platform</title>
+    <link>https://nilezon.com</link>
+    <description>Rigorous, data-driven analysis of the Nile River Basin — hydrology, engineering, history, geopolitics, and regional cooperation. One River • Many Nations • Shared Prosperity.</description>
+    <language>en-us</language>
+    <copyright>Copyright 2026 Nilezon. All Rights Reserved.</copyright>
+    <managingEditor>editorial@nilezon.com (Nilezon Editorial Team)</managingEditor>
+    <webMaster>tech@nilezon.com (Nilezon Tech)</webMaster>
+    <lastBuildDate>Mon, 09 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <pubDate>Mon, 09 Jun 2026 00:00:00 +0000</pubDate>
+    <ttl>1440</ttl>
+    <category>Education</category>
+    <category>Science</category>
+    <category>Africa</category>
+    <category>Water Resources</category>
+    <generator>Nilezon Publishing System v1.0</generator>
+    <docs>https://blogs.law.harvard.edu/tech/rss</docs>
+    <image>
+      <url>https://nilezon.com/logo.png</url>
+      <!-- Official logo: 1024x1536px, PNG -->
+      <title>Nilezon</title>
+      <link>https://nilezon.com</link>
+      <width>144</width>
+      <height>144</height>
+    </image>
+
+    <atom:link href="https://nilezon.com/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <!-- NZ-0001 -->
+    <item>
+      <title>NZ-0001: Where Does the Nile Really Begin?</title>
+      <link>https://nilezon.com/articles/nz-0001-where-does-the-nile-really-begin</link>
+      <description>The question sounds simple — but exposes centuries of colonial cartography, contested science, and the deep complexity of a river that drains 3.3 million square kilometres across eleven nations.</description>
+      <content:encoded><![CDATA[
+        <p><strong>Article ID:</strong> NZ-0001 | HYD-0001</p>
+        <p>The question sounds deceptively simple. The answer requires confronting colonial cartography, competing hydrological definitions, a lake in Uganda, and two thousand kilometres of ambiguity.</p>
+        <p>Read the full article at <a href="https://nilezon.com/articles/nz-0001-where-does-the-nile-really-begin">nilezon.com</a></p>
+      ]]></content:encoded>
+      <author>editorial@nilezon.com (Nilezon Editorial Team)</author>
+      <category>Hydrology</category>
+      <category>HYD-0001</category>
+      <guid isPermaLink="true">https://nilezon.com/articles/nz-0001-where-does-the-nile-really-begin</guid>
+      <pubDate>Sat, 07 Jun 2026 08:00:00 +0000</pubDate>
+      <dc:creator>Nilezon Editorial Team</dc:creator>
+      <media:content url="https://nilezon.com/images/nz-0001-hero.jpg" medium="image"/>
+    </item>
+
+  </channel>
+</rss>

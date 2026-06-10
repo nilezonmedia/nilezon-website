@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1e38"/>
+      <stop offset="100%" stop-color="#071528"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#0e4a7a"/>
+      <stop offset="50%" stop-color="#1e7aaa"/>
+      <stop offset="100%" stop-color="#4ab8d4"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="64" height="64" rx="10" fill="url(#bg)"/>
+  <!-- N left stroke -->
+  <rect x="8" y="10" width="10" height="44" rx="1.5" fill="white"/>
+  <!-- N right stroke -->
+  <rect x="46" y="10" width="10" height="44" rx="1.5" fill="white"/>
+  <!-- N diagonal -->
+  <polygon points="18,10 28,10 56,54 46,54" fill="white"/>
+  <!-- River flowing up through N -->
+  <path d="M 30 54 C 30 44, 28 34, 27 24 C 26 17, 25 13, 24 10"
+        stroke="url(#river)" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- River highlight -->
+  <path d="M 30 54 C 30 44, 28 34, 27 24 C 26 17, 25 13, 24 10"
+        stroke="rgba(180,230,255,0.4)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Delta at top -->
+  <line x1="24" y1="10" x2="24" y2="5"  stroke="#4ab8d4" stroke-width="3"   stroke-linecap="round"/>
+  <line x1="24" y1="7"  x2="16" y2="4"  stroke="#4ab8d4" stroke-width="2"   stroke-linecap="round" opacity="0.9"/>
+  <line x1="24" y1="7"  x2="32" y2="4"  stroke="#4ab8d4" stroke-width="2"   stroke-linecap="round" opacity="0.9"/>
+  <line x1="24" y1="7"  x2="10" y2="5"  stroke="#2596be" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <line x1="24" y1="7"  x2="38" y2="5"  stroke="#2596be" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <!-- Source dot -->
+  <circle cx="30" cy="57" r="2.5" fill="rgba(74,184,212,0.35)"/>
+  <circle cx="30" cy="57" r="1.2" fill="#4ab8d4"/>
+</svg>

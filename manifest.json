@@ -1,0 +1,30 @@
+{
+  "name": "Nilezon — The Nile Basin Knowledge Platform",
+  "short_name": "Nilezon",
+  "description": "The world's most trusted independent digital resource dedicated to the Nile River Basin.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#040d1a",
+  "theme_color": "#040d1a",
+  "orientation": "portrait-primary",
+  "lang": "en",
+  "categories": ["education", "news", "science"],
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "1024x1536",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/screenshot-homepage.jpg",
+      "sizes": "1280x800",
+      "type": "image/jpeg",
+      "label": "Nilezon Homepage"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
