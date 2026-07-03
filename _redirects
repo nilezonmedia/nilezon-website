@@ -1,15 +1,23 @@
-/articles/*    /index.html    200
-/hydrology     /index.html    200
-/engineering   /index.html    200
-/history       /index.html    200
-/geopolitics   /index.html    200
-/environment   /index.html    200
-/about         /index.html    200
-/contact       /index.html    200
-/newsletter    /index.html    200
-/copyright     /index.html    200
-/privacy       /index.html    200
-/terms         /index.html    200
-/disclaimer    /index.html    200
-/brand         /brand.html    200
-/full-site     /site.html     200
+# ── Clean URLs → real pages ────────────────────────────────
+/hydrology       /hydrology.html      200
+/engineering     /engineering.html    200
+/history         /history.html        200
+/geopolitics     /geopolitics.html    200
+/environment     /environment.html    200
+/archive         /archive.html        200
+/about           /about.html          200
+/contact         /contact.html        200
+/privacy         /privacy.html        200
+/terms           /terms.html          200
+/disclaimer      /disclaimer.html     200
+# ── Homepage sections ──────────────────────────────────────
+/newsletter      /index.html          200
+/map             /index.html          200
+# ── Articles (per-article pages not yet built → archive) ───
+/articles/nz-0001  /articles/nz-0001.html   200
+/articles        /archive.html        200
+/articles/*      /archive.html        200
+# ── Reference pages ────────────────────────────────────────
+/brand           /brand.html          200
+# ── Legacy copyright link → terms ──────────────────────────
+/copyright       /terms.html          200
